@@ -63,7 +63,7 @@
     }
 ## 编写项目时，容易出现的错误
 ### 当为类添加属性时，如果不在属性前加上 @objc
-    eg: var age: NSInteger = 0 <br>
-    eg: @objc var age: NSInteger = 0 <br>
+    例子: var age: NSInteger = 0 <br>
+    例子: @objc var age: NSInteger = 0 <br>
 ### 如果之前没有使用Runtime机制, 而是手写
     此时可能会发生以下错误
