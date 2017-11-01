@@ -69,5 +69,5 @@
     解决方法：在属性前加上 @objc <br>
     eg: @objc var age: NSInteger = 0 <br>
 ### 如果之前没有使用Runtime机制, 而是手动编写归/解档代码
-    此时可能会发生以下错误：Couldn't set nil for the key age.
-    解决方法：将模拟器/真机中的应用程序删除，重新加载程序
+    此时可能会发生以下错误：Couldn't set nil for the key age.<br>
+    解决方法：将模拟器/真机中的应用程序删除，重新加载程序.<br>
