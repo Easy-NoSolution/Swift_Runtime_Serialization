@@ -63,9 +63,9 @@
     }
 ## 编写项目时，容易出现的错误
 ###    当为类添加属性时，如果不在属性前加上 @objc
-    eg: var age: NSInteger = 0
-    此时会发生以下错误：Terminating app due to uncaught exception 'NSUnknownKeyException', reason: '[<test1.Person 0x604000027560> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key age.
-    
-    解决方法：在属性前加上 @objc
+    eg: var age: NSInteger = 0 <br>
+    此时会发生以下错误：Terminating app due to uncaught exception 'NSUnknownKeyException', reason: '[<test1.Person 0x604000027560> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key age. <br>
+    <br>
+    解决方法：在属性前加上 @objc <br>
     eg: @objc var age: NSInteger = 0
 ## 编写项目时，容易出现的错误
