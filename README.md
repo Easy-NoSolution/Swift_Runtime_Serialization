@@ -68,3 +68,5 @@
     <br>
     解决方法：在属性前加上 @objc <br>
     eg: @objc var age: NSInteger = 0 <br>
+### 如果之前没有使用Runtime机制, 而是手写
+    此时可能会发生以下错误
